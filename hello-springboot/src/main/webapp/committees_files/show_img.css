@@ -1,0 +1,148 @@
+/* CSS Document */
+.imgl_album{
+	float:left;
+}
+.text_title_show{
+	clear:both;
+	float:left;
+}
+.text_title_show a{
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#FF3300;
+	padding-left:7PX;
+	text-decoration:none;
+}
+.text_title_show a:hover{
+	color:#0083C1;
+}
+.line_topic_show{
+	clear:both;
+	padding-top:3px;
+	float:left;
+}
+.content_show{
+	float:left;
+	background-color:#f5f4f4;
+	padding-left:0px;
+}
+.row_show{
+	clear:both;
+	padding-left:30px;
+}
+.row_show1
+{
+    clear:both;
+	padding-left:0px;     
+}
+.td_album{
+	float:left;
+	width:200px;
+	margin-right:20px;
+}
+.hinhalbum{
+	clear:both;
+	padding:20px 17px 23px 19px;
+	background:url(/Resources/ImagePhoto/bg_img.jpg) no-repeat;
+}
+.hinhalbum img{
+	width:160px;
+	height:120px;
+}
+.title_album{
+	width:200px;
+	text-align:center;
+}
+.title_album a{
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#0080C0;
+	text-decoration:none;
+}
+.title_album a:hover{
+	color:#FF6633;
+}
+.title_album span{
+	font:normal 11px Arial, Helvetica, sans-serif;
+	color:#999999;
+}
+.content_sp{
+	padding:5px 0px 5px 0px;
+	float:left;
+	}
+.row_sp{
+	clear:both;
+	
+	float:left;
+	margin-bottom:30px;
+	padding-left:15px;
+	}
+.td_sp{
+	float:left;
+	width:150px;
+	padding:30px 30px 0px 0px;
+	}
+.tieude_spm{
+	float:left;
+	padding:0px 0px 0px 10px;
+	}
+.tieude_spm img{
+	float:left;
+	padding:10px 0px 0px 0px;
+	}
+.tieude_spm span{
+	float:left;
+	padding:10px 0px 0px 10px;
+	font:bold 12px Tahoma, Geneva, sans-serif;
+	color:#208bc4;
+	width:300px;
+	}
+.bottom_spm{
+	clear:both;
+	background:url(/Resources/ImagePhoto/bg_bt_spm.jpg) repeat-x;
+	height:5px;
+	}
+.hinhsp{
+	clear:both;
+	text-align:center;
+	border:1px #E1E1E1 solid;
+	padding:10px;
+	background-color:#f5f4f4;
+	}
+.hinhsp img{
+	width:128px;
+	}
+.title_sp{
+	clear:both;
+	font:normal 12px Tahoma, Geneva, sans-serif;
+	color:#208bc4;
+	padding-top:5px;
+	text-align:center;
+	}
+.title_sp a{
+	color:#FF6600;
+	text-decoration:none;
+	}
+.title_sp a:hover{
+	color:#0080C0;
+	}
+.part_trang{
+	clear:both;
+}
+.trang{
+	float:right;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:10px;
+	}
+.trang a{
+	float:left;
+	display:block;
+	background:#EAEAEA;
+	border:1px #AEAEAE solid;
+	padding:2px 10px 2px 10px;
+	margin:0px 2px 0px 2px;
+	color:#333;
+	}
+.trang a:hover{
+	background:#0097DF;
+	color:#fff;
+	}

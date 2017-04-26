@@ -1,0 +1,125 @@
+﻿
+/* Roor - background*/
+.RadMenu_Green .rmRootGroup {
+    background-image: url('Menu/rmSprite.png');
+    background-repeat: repeat-x;
+    height: 40px;
+    background-position: 0px 0px !important;
+    padding-left: 0px;
+    -webkit-border-radius: 3px;
+    clear:both;
+}
+/* Text*/
+.RadMenu_Green .rmText {
+    float: left;
+    font: 12px Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 37px;
+    font-weight: bold;
+    background-position: 100% -46px;
+    /*vertical-align: middle !important;*/
+    vertical-align:top;
+    margin: 2px 0px 0px 0px;
+    padding-left: 3px !important;
+    padding-right: 15px !important;
+}
+
+.RadMenu_Green .rmFirst .rmText {
+    /*margin-left:-1px ! important;*/
+}
+
+.RadMenu_Green .rmLast .rmText {
+    background-image: none;
+    /*padding-right:19px !important;*/
+}
+
+.RadMenu_Green .rmLink {
+    text-decoration: none;
+      -webkit-border-radius: 3px;
+}
+
+    .RadMenu_Green .rmLink :hover {
+        color: #88cafd;
+    }
+
+    .RadMenu_Green .rmLink :focus {
+        color: #88cafd;
+    }
+
+/*---------------------------------------------------------------------*/
+
+.RadMenu_Green a.rmLink:hover {
+    background-position: 0px -0px;
+}
+
+    .RadMenu_Green a.rmLink:hover .rmText {
+        background-position: 100% -46px;
+    }
+
+.RadMenu_Green .rmLast a.rmLink:hover .rmText {
+    background-position: 0px -0px;
+    background-image: url('Menu/rmSprite.png');
+}
+
+.RadMenu_Green a.rmLink,
+.RadMenu_Green .rmText {
+    background-image: url('Menu/rmSprite.png');
+    background-color: Transparent;
+}
+
+.RadMenu_Green a.rmExpanded,
+.RadMenu_Green a.rmExpanded:hover {
+    background-position: 0 -0px;
+}
+
+    .RadMenu_Green a.rmExpanded .rmText,
+    .RadMenu_Green a.rmExpanded:hover .rmText {
+        background-position: 100% -46px;
+    }
+
+.RadMenu_Green .rmLast a.rmExpanded .rmText,
+.RadMenu_Green .rmLast a.rmExpanded:hover .rmText {
+    background-position: 100% -46px;
+    background-image: url('Menu/rmSprite.png');
+}
+
+.RadMenu_Green a.rmExpanded .rmExpandDown {
+    color: #88cafd;
+}
+
+.RadMenu_Green a.rmExpanded .rmExpandRight {
+    color: #fff;
+    background-image: url('Menu/rmSprite.png');
+    background-position: 0px -235px !important;
+    background-repeat: repeat-x;
+}
+/*---------------------------------------------------------------------*/
+/* Cấp 2 - Text*/
+.RadMenu_Green .rmLevel1 .rmText {
+    text-align: left;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 12px;
+    COLOR: #333;
+    TEXT-DECORATION: none;
+    text-decoration: none;
+    padding-right: 33px !important;
+    padding-left: 27px !important;
+    margin-left: 0px !important;
+    background-image: url('Menu/rmSprite.png');
+    background-position: 0px -200px !important;
+    line-height:34px;
+}
+/* Cấp 2 - Link*/
+.RadMenu_Green .rmLevel1 .rmLink {
+    text-decoration: none;
+}
+
+    .RadMenu_Green .rmLevel1 .rmLink :hover {
+        color: #fff;
+        background-image: url('Menu/rmSprite.png');
+        background-position: 0px -235px !important;
+        background-repeat: repeat-x;
+    }
+/*-------------------------------*/

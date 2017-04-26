@@ -1,0 +1,469 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0px;
+}
+
+.gray {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0px auto;
+    background: #fff;
+}
+/*top*/
+.top_phong {
+    width: 1000px;
+    height: 152px;
+}
+
+.logo_phong {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.search_phong {
+    float: right;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+
+.bgsearch_phong {
+    background: url(/Resources/ImagesPortal/PhongBan/bgsearch_phong.png) no-repeat;
+    width: 161px;
+    height: 27px;
+    border: 0px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    padding-top: 5px;
+}
+
+.btsearch_phong {
+    background: url(/Resources/ImagesPortal/PhongBan/bt_search.png) no-repeat;
+    width: 28px;
+    height: 27px;
+    border: 0px;
+    float: right;
+}
+
+/*logo*/
+.P_logo {
+    float: left;
+    width: 700px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+    .P_logo .anh_logo {
+        float: left;
+        width: 120px;
+    }
+
+    .P_logo .name_ute {
+        float: left;
+        margin-left: 20px;
+    }
+
+    .P_logo a {
+        float: left;
+    }
+
+        .P_logo a img {
+            margin-right: 10px;
+        }
+
+    .P_logo h2 {
+        font: 18px Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        color: #145fb0;
+        margin-top: 10px;
+    }
+
+    .P_logo h1 {
+        font: 24px Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #145fb0;
+        margin-top: 5px;
+    }
+
+    .P_logo h3 {
+        font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #f9051e;
+        padding-top: 5px;
+        margin-top: 5px;
+        border-top: 3px solid #1360ae;
+        width: 450px;
+        text-shadow: 0 1px 0 #ccc, 0 2px 1px rgba(0,0,0,.1), 0 2px 1px rgba(0,0,0,.2), 0 1px 1px rgba(0,0,0,.2), 0 2px 2px rgba(0,0,0,.2);
+    }
+/*menu*/
+.menu_phong {
+    clear: both;
+    float: left;
+    background: url(/Resources/ImagesPortal/PhongBan/bg_mn_phong.jpg) repeat-x;
+    width: 1000px;
+    height: 48px;
+}
+
+    .menu_phong ul li {
+        display: inline;
+        float: left;
+    }
+
+.linemn_phong {
+    margin-top: 6px;
+}
+
+.menu_phong ul li a {
+    display: block;
+    text-transform: uppercase;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+    .menu_phong ul li a:hover {
+        display: block;
+        height: 30px;
+        color: #054589;
+        background: #51a1d1;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+/*content_phong*/
+.content_phong {
+    float: left;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.primary_phong {
+    float: left;
+    width: 692px;
+}
+
+.noidung_phong {
+    float: left;
+    background: #f4f5f5;
+    border: 1px solid #e6e2e2;
+    margin-top: 5px;
+}
+
+.title_phong {
+    border-bottom: 2px solid #bf1313;
+    height: 34px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+    .title_phong h3 {
+        margin-left: 10px;
+        text-transform: uppercase;
+        color: #bf1313;
+        font: 16px Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top: 8px;
+    }
+
+        .title_phong h3 img {
+            margin-right: 5px;
+        }
+
+.ndtin_phong {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+    .ndtin_phong img {
+        float: left;
+        width: 290px;
+        border: 1px solid #d7d4d4;
+        padding: 3px;
+        margin-right: 10px;
+    }
+
+    .ndtin_phong a {
+        float: left;
+        margin-right: 10px;
+        width: 360px;
+        font: 13px Arial, Helvetica, sans-serif;
+        color: #b63436;
+        font-weight: bold;
+        text-decoration: none;
+        line-height: 18px;
+        padding-bottom: 5px;
+    }
+
+        .ndtin_phong a:hover {
+            color: #115ba6;
+        }
+
+    .ndtin_phong p {
+        font: 13px Arial, Helvetica, sans-serif;
+        float: left;
+        width: 360px;
+        margin-right: 10px;
+        color: #212121;
+        line-height: 20px;
+    }
+/*sidebar_phong*/
+.sidebar_phong {
+    width: 300px;
+    float: left;
+    margin-left: 6px;
+}
+
+.thongbao_phong {
+    float: left;
+    background: #fff;
+    width: 300px;
+    border: 1px solid #e6e2e2;
+}
+
+.topictb_phong {
+    float: right;
+    background: url(/Resources/ImagesPortal/PhongBan/bgtopic_phong.png) no-repeat;
+    width: 301px;
+    height: 56px;
+    margin-top: 10px;
+    margin-right: -10px;
+}
+
+    .topictb_phong h3 {
+        float: left;
+        color: #fff;
+        width: 250px;
+        font: 14px Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 13px;
+        text-transform: uppercase;
+    }
+
+    .topictb_phong a img {
+        float: right;
+        padding-right: 20px;
+        margin-top: 16px;
+    }
+
+.topictb_phong_blue {
+    float: right;
+    background: url(/Resources/ImagesPortal/PhongBan/bgtopic_phong_blue.png) no-repeat;
+    width: 301px;
+    height: 56px;
+    margin-top: 10px;
+    margin-right: -10px;
+}
+
+    .topictb_phong_blue h3 {
+        float: left;
+        color: #fff;
+        width: 250px;
+        font: 14px Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 13px;
+        text-transform: uppercase;
+    }
+
+    .topictb_phong_blue a img {
+        float: right;
+        padding-right: 20px;
+        margin-top: 16px;
+    }
+
+.listtb_phong ul {
+    float: left;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+    .listtb_phong ul li {
+        border-bottom: 1px dashed #cf2429;
+        margin-bottom: 8px;
+    }
+
+        .listtb_phong ul li:last-child {
+            border-bottom: 0px;
+        }
+
+        .listtb_phong ul li a {
+            display: block;
+            font: 12px Arial, Helvetica, sans-serif;
+            color: #232323;
+            line-height: 18px;
+            padding-bottom: 8px;
+        }
+
+            .listtb_phong ul li a:hover {
+                color: #ff0000;
+            }
+
+            .listtb_phong ul li a p {
+                color: #d0252a;
+            }
+
+.anhvan_phong {
+    float: right;
+    margin-top: 5px;
+}
+
+.face_phong {
+    float: right;
+    margin-top: 5px;
+}
+/*footer_phong*/
+.footer_phong {
+    clear: both;
+    background: url(/Resources/ImagesPortal/PhongBan/bgfooter_phong.png) repeat-x;
+    width: 1000px;
+    height: 110px;
+}
+
+.addute {
+    float: left;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 20px;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+    .addute p {
+        margin-bottom: 5px;
+    }
+
+.truycap_ute {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+    .truycap_ute p {
+        font: 12px Arial, Helvetica, sans-serif;
+        color: #fff;
+        padding-top: 3px;
+    }
+
+.line_footer {
+    border-bottom: 1px solid #fff;
+    height: 1px;
+}
+/* Wobble Horizontal */
+@-webkit-keyframes wobble-horizontal {
+    16.65% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+
+    33.3% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+
+    49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+
+    66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+
+    83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes wobble-horizontal {
+    16.65% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+
+    33.3% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+
+    49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+
+    66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+
+    83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.wobble-horizontal {
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+    .wobble-horizontal:hover, .wobble-horizontal:focus, .wobble-horizontal:active {
+        -webkit-animation-name: wobble-horizontal;
+        animation-name: wobble-horizontal;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+    }
+
+/*Link trang*/
+.link_trang {
+    float: right;
+}
+
+    .link_trang a {
+        font: 12px Arial, Helvetica, sans-serif;
+        color: #0556a6;
+        margin-right: 10px;
+    }

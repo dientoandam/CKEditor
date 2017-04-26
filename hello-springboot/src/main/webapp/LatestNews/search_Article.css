@@ -1,0 +1,46 @@
+﻿
+.container_lucene {
+    float: left;
+    padding: 5px 0px 0px 10px;
+}
+
+.Highlight {
+    background-color: #FFFF00;
+    color: #CC3300;
+    font-weight: bold;
+}
+
+.result_lucene a {
+    color: tomato;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.content_lucene {
+    float: left;
+    padding: 15px 0px 10px 0px;
+}
+
+.content_detail_lucene {
+    padding: 5px 0px 5px 0px;
+}
+
+.title_article_lucene a {
+    font-size: 16px;
+    color: #0280BB;
+    font-weight: bold;
+}
+
+.title_article_lucene img {
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+.content_article_lucene {
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.paging_lucene a {
+    color: #333;
+}

@@ -1,0 +1,104 @@
+﻿/**-----ArticleDisplay----------*/
+.ct_tin a{
+color:#074c95;
+font:11px Verdana;
+font-weight:bold;
+}
+.ct_tin a:hover{
+text-decoration:underline;
+}
+.ct_tin p{
+font:11px Verdana;
+color:#1d1d1d;
+}
+.title a{
+font:11px Verdana;
+font-weight:bold;
+text-transform:uppercase;
+color:#074c92;
+float:left;
+margin-left:15px;
+
+width:100%;
+}
+.all{
+float:right;
+margin-right:10px;
+margin-top:5px;
+}
+.all a{
+float:right;
+font:11px Verdana;
+color:#07427f;
+margin-right:5px;
+font-weight:bold;
+}
+.all a:hover{
+text-decoration:underline;
+}
+.tinkhac
+{
+	padding:3px 0px 3px 0px;
+}
+.tinkhac a{
+color:#333;
+}
+.tinkhac a:hover{
+color:Red;
+}
+/*Hỏi đáp*/
+
+.tlcauhoi{
+margin-left:25px;
+margin-right:25px;
+border:1px solid #999999;
+}
+.row_tl{
+border-top:1px solid #999999;
+
+}
+.title_tl{
+height:30px;
+background:#ccc;
+}
+.title_tl a{
+font:12px Verdana;
+text-transform:uppercase;
+color:#073a70;
+font-weight:bold;
+text-decoration:none;
+line-height:30px;
+padding-left:5px;
+}
+.tennguoihoi{
+font:12px Verdana;
+font-weight:bold;
+color:#333;
+
+padding-left:10px;
+padding-top:5px;
+}
+.tennguoihoi span{
+color:#999999;
+font:11px Verdana;
+}
+.noidung_tlch
+{
+    color:#000;
+    padding-bottom:5px;
+    
+padding-left:20px;
+
+}
+.traloi
+{
+margin-left:10px;
+
+
+}
+.noidung_tl
+{
+    color:#666;
+padding-left:10px;
+
+}
